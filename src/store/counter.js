@@ -1,11 +1,11 @@
 const state = {
-  num: 0
+  num: 0,
 }
 const mutations = {
   add (state) {
     state.num++
   },
-  reduces (state) {
+  reduces(state) {
     if (state.num === 0) {
       return
     }
