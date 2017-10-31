@@ -28,13 +28,13 @@ export default new Router({
       path: '/demo',
       name: 'Demo',
       component: Demo,
-      children: [
-        {
-          path: '/demo/game',
-          component: Game,
-          name: 'Game'
-        }
-      ]
+      // children: [
+      //   {
+      //     path: '/demo/game',
+      //     component: Game,
+      //     name: 'Game'
+      //   }
+      // ]
     }
   ]
 })
