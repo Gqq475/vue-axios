@@ -1,7 +1,6 @@
 <template>
   <div>
-    <!-- 下面是一个表格，用的是饿了么ui库，
-    绑定的数据直接在下面写死的。 -->
+    <!-- 下面是一个表格，用的是饿了么ui库 -->
   <el-table
     :data="nameDate.modelList"
     border

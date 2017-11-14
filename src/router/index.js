@@ -4,6 +4,7 @@ import Hello from '@/components/Hello'
 import Demo from '@/components/Demo'
 import Game from '@/components/Game'
 import Count from '@/components/Count'
+import Shop from '@/components/Shop'
 Vue.use(Router)
 
 export default new Router({
@@ -23,6 +24,11 @@ export default new Router({
       path: '/game',
       component: Game,
       name: 'Game'
+    },
+    {
+      path: '/shop',
+      component: Shop,
+      name: 'Shop'
     },
     {
       path: '/demo',
