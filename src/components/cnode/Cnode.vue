@@ -1,5 +1,6 @@
 <template>
   <div id="tabNav" class="tabs">
+    <h2>Cnode 社区</h2>
     <el-tabs v-model="activeName" @tab-click="handleClick">
       <el-tab-pane
         :key="item.name"
