@@ -5,6 +5,7 @@ import Demo from '@/components/Demo'
 import Game from '@/components/Game'
 import Count from '@/components/Count'
 import Shop from '@/components/Shop'
+import Cnode from '@/components/cnode/Cnode'
 Vue.use(Router)
 
 export default new Router({
@@ -14,6 +15,11 @@ export default new Router({
       path: '/',
       name: 'Hello',
       component: Hello
+    },
+    {
+      path: '/cnode',
+      name: 'cnode',
+      component: Cnode
     },
     {
       path: '/count',
