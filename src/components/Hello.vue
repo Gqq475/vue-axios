@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <button @click="cnode">Cnode</button>
     <button @click="step">点击按钮跳转页面喽</button>
     <button @click="shop">购物去啦</button>
     <p>我是父组件中的一个变量，传给子组件中的input。</p>
@@ -43,6 +44,14 @@ export default {
         path: '/shop',
         // '要跳转的路径的 name,在 router 文件夹下的 index.js 文件内找',
         name: 'Shop',
+      })
+    },
+    cnode () {
+      // 路由跳转
+      this.$router.push({
+        path: '/cnode',
+        // '要跳转的路径的 name,在 router 文件夹下的 index.js 文件内找',
+        name: 'cnode',
       })
     }
   }

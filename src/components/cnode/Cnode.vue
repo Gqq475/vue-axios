@@ -58,5 +58,7 @@
 </script>
 
 <style scoped>
-
+  .tabs{
+    text-align: left;
+  }
 </style>
